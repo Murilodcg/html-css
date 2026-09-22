@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando iframe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }        
+
+        iframe#tela{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, officia modi eligendi sapiente ab, necessitatibus est corporis perspiciatis quaerat dolorum quibusdam ea tempore nemo odio? In officiis ut veritatis ab!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="view">Primeira página.</a></li>
+        <li><a href="../desafio012/index.html" target="view">Segunda página</a></li>
+        <li><a href="../desafio010/android.html" target="view">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quam. Rem pariatur minus sed magnam eum eaque dolores reiciendis molestias quod error doloremque, ut, architecto nemo aliquid praesentium hic impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vel quis omnis aspernatur explicabo consectetur aliquid. Earum dolores voluptatibus odio. Est labore illo dolorem iste? Voluptas accusantium eum suscipit.</p>
+
+    <!--TAMBEM PODEMOS CONFIGURAR A EXIBIÇÃO PRIMARIA USANSO O SRCDOC, DENTRO DELE PODEMOS PROGRAMAR UMA PAGINA SIMPLES DO ZERO-->
+
+    <iframe id="tela" name="view" src="paginas-extras/pag001.html">
+        <p>infelizmente seu navegador é incompátivel!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt unde autem quisquam iure velit, a neque tenetur itaque amet placeat vero totam, aperiam debitis consequuntur eum laboriosam omnis quia consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, impedit expedita magni optio obcaecati quo. Iure, sint excepturi blanditiis aliquam voluptate modi illum asperiores cupiditate laudantium consequatur ipsa molestias placeat?</p>
+
+</body>
+</html>
